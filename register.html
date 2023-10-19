@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css"/> <!-- Link to your CSS stylesheet -->
+    <title>Register - Infocus E-Learning Platform</title>
+</head>
+<body>
+    <header>
+        <!-- Navigation Bar -->
+        <div class="logo">
+            <img src="hom.png" alt="Infocus logo">
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+            <button type="submit">Search</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="register.html" target="_blank">Home</a></li>
+                <li><a href="https://infocusqa.com/courses-new/" target="_blank">Courses</a></li>
+                <li><a href="comingsoon.html" target="_blank">Results</a></li>
+                <li><a href="comingsoon.html" target="_blank">Assignments</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="registration-container">
+            <h1>Register</h1>
+            <form method="post" action="contact.php"> 
+
+            
+                <label for="username">Student-Id:</label>
+                <input type="text" id="username" placeholder="Enter you Student-Id" name="username" required>
+
+                <label for="fullname">Fullname:</label>
+                <input type="text" id="fullname" placeholder="Enter your fullname" name="fullname" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="E-mail address" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter a password" name="password" required>
+                <small>Password must contain at least 8 characters, including at least one uppercase letter, one lowercase letter, and one number.</small>
+
+                <label for="confirmpassword">Confirm Password:</label>
+                <input type="password" id="confirmpassword" placeholder="Enter the password again" name="confirmpassword" required>
+
+                <label for="terms-conditions">
+                    <input type="checkbox" id="terms-conditions" name="terms-conditions" required> I accept the terms and conditions
+                </label>
+
+                <button type="submit">Register</button>
+                <label for="have-an-account-already">Already have an account? <a href="login.html">Login</a></label>
+            </form>
+        </section>
+    </main>
+
+    
+    <script src="app.js"></script>
+    </body>
+    <footer>
+        <div class="social-media-container"><div class="social-media"><p>Connect with us</p></div>
+        <div class="social-media">
+            <a href="#"><img src="face.png" alt="Facebook"></a>
+            <a href="#"><img src="twit.png" alt="Twitter"></a>
+            <a href="#"><img src="you.png" alt="LinkedIn"></a>
+        </div>
+        </div>
+        <div class="copyright">
+            &copy; 2023 Infocus IT center
+        </div>
+        <div><p>Email: info@infocus.com</p></div>
+        <div><p>Phone: +974-Infocus</p></div>
+    </footer> 
+</html>

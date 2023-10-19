@@ -1,0 +1,149 @@
+/* Apply styles to the entire page */
+body {
+    background-image: url('use.jpg');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* Navigation Bar Styles */
+header {
+    background-color: #cccc; /* Blue */
+    color: blue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    background-color: #0073e6;
+    color: white; /* Blue */
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Registration Container Styles */
+/* Style the main section */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+/* Style the registration container */
+.registration-container {
+    max-width: 400px;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #0073e6;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style the form heading */
+.registration-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0073e6;
+}
+
+/* Style the form labels */
+.registration-container label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Style the form inputs */
+.registration-container input[type="text"],
+.registration-container input[type="email"],
+.registration-container input[type="password"],
+.registration-container input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the small text under the password input */
+.registration-container small {
+    color: #777;
+    display: inline;
+    margin-top: 5px;
+}
+/* Style the terms and conditions checkbox and label */
+.registration-container label[for="terms-conditions"] {
+    display:inline;
+    vertical-align: middle;
+    margin-right: 5px;
+    
+}
+
+.registration-container input[type="checkbox"] {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/* Style the submit button */
+.registration-container button[type="submit"] {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+/* Footer Styles */
+footer {
+    background-color: #0073e6; /* Blue */
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.social-media-container {
+    display: flex;
+}

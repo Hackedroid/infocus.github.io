@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css"> <!-- Link to your CSS stylesheet -->
+    <title>Login - Infocus E-Learning Platform</title>
+</head>
+<body>
+    <header>
+        <!-- Navigation Bar -->
+        <div class="logo">
+            <img src="hom.png" alt="Infocus logo">
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+            <button type="submit">Search</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="register.html" target="_blank">Home</a></li>
+                <li><a href="https://infocusqa.com/courses-new/" target="_blank">Courses</a></li>
+                <li><a href="comingsoon.html" target="_blank">Results</a></li>
+                <li><a href="comingsoon.html" target="_blank">Assignments</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!--<div class="learnIT"><h1>Learn IT Courses in Qatar</h1></div> -->
+       <div  class="login-container"><section>
+            <h1>Login</h1>
+           <div class="form"> <form action="inf.py" method="post"> 
+                <label for="username">Student-Id:</label>
+                <input type="text" id="username" placeholder="Enter Student-Id" name="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter password" name="password" required>
+
+                <label for="remember-me">
+                    <input type="checkbox" id="remember-me" name="remember-me">Remember Me
+                </label> 
+                <label for="forgot_password"><a href="forgot_password.html">Forgot Password?</a></label>
+                
+                <button type="submit">Login</button>
+            </form>
+        </div>
+            <p>Don't have an account? <a href="register.html"> Sign up</a></p>
+        </section>
+        </div>
+    </main>
+
+    
+    <script src="inf.js"></script>
+</body>
+
+<footer>
+    <div class="social-media-container">
+        <div class="social-media"><p>Connect with us</p>
+        </div>
+        <div class="social-media">
+            <a href="#"><img src="face.png" alt="Facebook"></a>
+            <a href="#"><img src="twit.png" alt="Twitter"></a>
+            <a href="#"><img src="you.png" alt="LinkedIn"></a>
+        </div>
+    </div>
+    <div class="copyright">
+        &copy; 2023 E-Learning Platform
+    </div>
+    <div><p>Email: info@infocus.com</p></div>
+    <div><p>Phone: +974-Infocus</p></div>
+    
+</footer>
+</html>
